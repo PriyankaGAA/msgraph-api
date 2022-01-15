@@ -123,7 +123,7 @@ public class GraphapiController {
                 int statusCode = ((HttpClientErrorException) e).getRawStatusCode();
                 if (statusCode == 404)
                 {
-                    resultResponse.add(" teamId: "+teamId+" "+" not found");
+                    resultResponse.add(" teamId: "+teamId+" "+" not found.");
                 }
                 else
                 {
